@@ -1,0 +1,9 @@
+.todo {
+    padding: 1rem;
+    background-color:lightsteelblue;
+    margin-top: 2rem;
+    width: 30rem;
+    max-width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 1px 8px rgba(36, 25, 91, 0.25);
+  }

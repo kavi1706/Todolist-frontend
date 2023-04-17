@@ -1,0 +1,54 @@
+
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.505);
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 12px;
+    background-color:aliceblue;
+  }
+  
+  .todo-item__description {
+    display: flex;
+   
+    gap: 1rem;
+    align-items: flex-start;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+    flex: 1;
+  }
+  
+  .todo-item h1 {
+ 
+    color: #3a3a3a;
+    font-size: 1rem;
+    color:black;
+  }
+  
+  .todo-item__price {
+    font-size: 1rem;
+  
+    color:black;
+    
+   
+   
+  }
+  
+  @media (min-width: 800px) {
+    .todo-item__description {
+      flex-direction:column;
+    
+    }
+  
+    .todo-item__description h1 {
+      font-size: 1.25rem;
+    }
+  
+    .todo-item__price {
+      font-size: 1rem;
+   
+    }
+  }
